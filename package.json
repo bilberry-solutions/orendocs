@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:bilberry-solutions/orendocs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andriy Parkhomenko",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.54.0",
