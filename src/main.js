@@ -1,16 +1,4 @@
-'use strict';
-import EditorJS from '@editorjs/editorjs';
-
-function counter() {
-  let seconds = 0;
-  setInterval(() => {
-    seconds += 1;
-    document.getElementById('app').innerHTML = `<p>You have been here for ${seconds} seconds.</p>`;
-  }, 1000);
-}
-
-const editor = new EditorJS({
-  tools: {
-  }
-})
-
+import "../node_modules/jodit/es2018/jodit.min.css";
+import { Jodit } from "../node_modules/jodit/es2018/jodit.min.js";
+	    Jodit.make('#editor', {
+	    });

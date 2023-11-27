@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EditorJS Demo</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app" class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body over-hidden">
+              <div class="card-text">
+                <textarea id="editor" style='border: 1px solid red'></textarea>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              <button id="btnSaves" class="btn btn-outline-primary">
+                Save
+              </button>
+              <button id="btnReset" class="btn">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./node_modules/jodit/es2018/jodit.css" />
+    <script src="./node_modules/jodit/es2018/jodit.min.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
